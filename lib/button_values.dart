@@ -29,34 +29,34 @@ extension Lay1Prop on ButtonArea1 {
       case ButtonArea1.clr:
       case ButtonArea1.priority:
       case ButtonArea1.per:
-        return Color(0XFFF6A389).withOpacity(0.78);
+        return const Color(0XFF96d7eb).withOpacity(0.78);
       case ButtonArea1.divide:
       case ButtonArea1.multiply:
       case ButtonArea1.subtract:
       case ButtonArea1.add:
-        return Color(0XFFCB935F).withOpacity(0.83);
+        return const Color(0XFFb1e1e9).withOpacity(0.83);
       case ButtonArea1.calculate:
-        return Color(0XFFFCBB3D).withOpacity(0.58);
+        return const Color(0XFF839cb5).withOpacity(0.58);
       case ButtonArea1.dot:
       case ButtonArea1.notation:
-        return Color(0XFFF4DFC8); // Add color for dot and notation cases
+        return const Color(0XFF96d7eb); // Add color for dot and notation cases
 
       default:
-        return Color(0XFFF4DFC8);
+        return const Color(0XFFfff3db);
     }
   }
 
   Color get textColor {
     switch (this) {
       case ButtonArea1.clr:
-        return Color(0XFFFF0000);
+        return const Color(0XFFFF0000);
       case ButtonArea1.divide:
       case ButtonArea1.multiply:
       case ButtonArea1.subtract:
       case ButtonArea1.add:
-        return Color(0XFF000000);
+        return const Color(0XFF000000);
       default:
-        return Color(0XFF000000);
+        return const Color(0XFF000000);
     }
   }
 
